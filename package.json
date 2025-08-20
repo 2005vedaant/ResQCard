@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview --port 5173"
   },
   "dependencies": {
@@ -23,7 +23,7 @@
     "vite": "^5.2.0"
   },
   "engines": {
-    "node":"18.x"
+    "node":"22.x"
   }
 }
 
